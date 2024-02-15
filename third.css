@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+}
+/*navbar*/
+
+.navbar{
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px 0 150px;
+  width: calc(100%-300px);
+  height: 25vh;
+}
+.navbar-right{
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+#text{
+  margin-left: 45px;
+  font-size: 14px;
+  color: rgb(24, 25, 29);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+#text:active{
+  text-decoration:underline 1px;
+  cursor: pointer;
+}
+#login{
+  margin: 0 20px 0 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: rgb(144, 144, 144);
+  cursor: pointer;
+}
+#login:active{
+  text-decoration:underline 1px rgb(144, 144, 144);;
+  cursor: pointer;
+}
+#point{
+  text-align:center;
+  font-size: 60px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  color: rgb(180, 180, 180);
+}
+/*main content*/
+
+.main-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 150px 0 150px;
+  width: calc(100%-300px);
+  height: 85vh;
+}
+.background{
+  position: absolute;
+  height: 650px;
+  border-radius: 40px;
+  width: 800px;
+  background-color: rgb(239, 239, 239);
+  right: -200px;
+  top: -300px;
+  z-index: 0;
+}
+.main-left{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px 30px 30px 0px;
+  width: 50%;
+  height: auto;
+}
+.left-top{
+  display: flex;
+  align-items: center;
+}
+.button1{
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(18, 35, 65);
+  padding: 5px 10px;
+  color: white;
+  font-weight: 600;
+}
+#monograph{
+  letter-spacing: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: gray;
+  margin: 0 0 0 20px;
+}
+#context{
+  line-height: 45px;
+  font-size: 40px;
+  margin-top: 30px;
+  width: 500px;
+  color: rgb(18, 35, 65);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+#context-info{
+  margin-top: 40px;
+  font-size: 20px;
+  width: 330px;
+  line-height: 30px;
+  color: rgb(108, 108, 108);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left-bot{
+  margin-top: 80px;
+  display: flex;
+}
+.button2{
+  padding: 15px 25px;
+  background-color: rgb(250, 109, 109);
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+.button2:active{
+  opacity: 0.8;
+}
+#monograph1{
+  letter-spacing: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: gray;
+  margin: 15px 0 0 20px;
+}
+.main-right{
+  width: 50%;
+  height: auto;
+}
+.picture{
+  position: absolute;
+  top: 100px;
+  width: 85%;
+}
